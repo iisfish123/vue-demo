@@ -1,0 +1,77 @@
+
+借立得H5版
+git clone --bare https://git.zyxr.com/JLD-Common/wapH5
+cd ./wapH5.git; 
+git push --mirror https://git.szrttx.com/frontEnd/H5/JLD_H5APP
+
+借立得PC官网
+git clone --bare https://git.zyxr.com/JLD-Common/PCHtml
+cd ./PCHtml.git; 
+git push --mirror https://git.szrttx.com/frontEnd/H5/JLD_PC
+
+借立得运营后台系统
+git clone --bare https://git.zyxr.com/JLD-Common/admin
+cd ./admin.git; 
+git push --mirror https://git.szrttx.com/frontEnd/H5/JLD_Operation_System
+
+借立得官网Wap端页面及其他APP需要的H5页面
+git clone --bare https://git.zyxr.com/JLD-Common/AppH5
+cd ./AppH5.git;
+git push --mirror https://git.szrttx.com/frontEnd/H5/JLD_WAP
+
+借立得对外暴露的审批系统
+git clone --bare https://git.zyxr.com/JLD-Common/audit
+cd ./audit.git;
+git push --mirror https://git.szrttx.com/frontEnd/H5/JLD_Audit_System
+
+借立得APP的RN端
+git clone --bare https://git.zyxr.com/JLD-Android/JieLiDeRN
+cd ./JieLiDeRN.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/JLD_APP_RN
+
+借立得APP的安卓原生端
+git clone --bare https://git.zyxr.com/JLD-Android/JieLiDeAndroid
+cd ./JieLiDeAndroid.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/JLD_APP_Android
+
+借立得APP的iOS原生端
+git clone --bare https://git.zyxr.com/weijiandong/JieLiDeiOSSwift
+cd ./JieLiDeiOSSwift.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/JLD_APP_iOS
+
+借立得APP的iOS端公共库，目前用于隐藏：客户端接口签名的实现方式，各种第三方的Key
+git clone --bare https://git.szrttx.com/frontEnd/JLD_APP_iOS_Common
+cd ./JLD_APP_iOS_Common.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/JLD_APP_iOS_Common
+
+
+金米贷APP的iOS端
+git clone --bare https://git.zyxr.com/weijiandong/JinMiDai
+cd ./JinMiDai.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/JinMiDai_APP_iOS
+
+资讯APP的iOS端
+git clone --bare https://git.zyxr.com/weijiandong/JieLiDe-Information
+cd ./JieLiDe-Information.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/Info_APP_iOS
+
+中业兴融房贷计算器
+git clone --bare https://git.zyxr.com/weijiandong/ZYXCalculator
+cd ./ZYXCalculator.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/LoanCalculator_APP_iOS
+
+中业金服RN脚手架APP项目，整合了基础模块：手势密码、启动引导、闪屏广告、版本更新
+git clone --bare https://git.szrttx.com/frontEnd/ZYJF_APP_RN
+cd ./ZYJF_APP_RN.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/ZYJF_APP_RN
+
+风控任务结果查询
+git clone --bare https://git.szrttx.com/wei.jiandong/UserRiskTaskSearch
+cd ./UserRiskTaskSearch.git;
+git push --mirror https://git.szrttx.com/frontEnd/H5/User_Risk_Task_Search
+
+借立得马甲包的服务端接口
+git clone --bare https://git.szrttx.com/frontEnd/JieLiDeFake-SeverAPI
+cd ./JieLiDeFake-SeverAPI.git;
+git push --mirror https://git.szrttx.com/frontEnd/APP/JieLiDe_Fake_SeverAPI
+

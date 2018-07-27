@@ -1,0 +1,44 @@
+.user{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  .user-main{
+    width: 1200px;
+    min-width: 1200px;
+    margin-top: 50px;
+  }
+  .left,.right{
+    flex-grow: 1;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+  }
+
+  .user-main-operation{
+    position: relative;
+    .el-tag{
+      margin-right: 10px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .is-hit{
+      background-color: #EA9B2D!important;
+    }
+    .el-button{
+      float: right;
+    }
+  }
+
+
+  .el-dialog{
+    .el-dialog__footer{
+      text-align: center;
+      .el-button{
+        display: inline-block;
+      }
+    }
+  }
+
+
+}

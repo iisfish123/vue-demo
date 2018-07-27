@@ -1,0 +1,3 @@
+export const GET_SYSTEM_ID_LIST_SAVE = 'GET_SYSTEM_ID_LIST_SAVE';
+
+export const SET_UI_MESSAGE = 'SET_UI_MESSAGE';

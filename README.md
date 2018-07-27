@@ -1,2 +1,1 @@
-# vue-demo
-vue全家桶
+##### UE目录的ueditor.config.js，被我注释了, serverUrl: URL + "php/controller.php"一行
